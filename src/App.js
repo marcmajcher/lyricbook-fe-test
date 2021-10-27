@@ -36,26 +36,26 @@ function App() {
 
   const history = useHistory()
 
-  useEffect(() => {
-    const token = localStorage.getItem("jwt");
-    fetch(`${url}/profile`, {
-      method: "GET",
-      headers: {
-        Authorization: `Bearer ${token}`,
-      },
-    }).then((response) => {
-      if (response.ok) {
-        response.json().then((data) => {
-          setLoggedIn(true)
-          setUser(data.user)
-          setLyrics(data.user.lyrics)
-          // setLyricEditor(data.user.lyrics)
-        });
-      } else {
-        console.log("please log in")
-      }
-    });
-  }, [counter]);
+  // useEffect(() => {
+  //   const token = localStorage.getItem("jwt");
+  //   fetch(`${url}/profile`, {
+  //     method: "GET",
+  //     headers: {
+  //       Authorization: `Bearer ${token}`,
+  //     },
+  //   }).then((response) => {
+  //     if (response.ok) {
+  //       response.json().then((data) => {
+  //         setLoggedIn(true)
+  //         setUser(data.user)
+  //         setLyrics(data.user.lyrics)
+  //         // setLyricEditor(data.user.lyrics)
+  //       });
+  //     } else {
+  //       console.log("please log in")
+  //     }
+  //   });
+  // }, [counter]);
 
   function addNewLyric(lyric) {
     const token = localStorage.getItem("jwt");
@@ -178,6 +178,9 @@ function App() {
         <Route exact path="/">
           <SigninHome />
         </Route>
+        <Route exact path="/test">
+<h1> OOGA GOO GOO BOO BOO</h1>
+          </Route>
 
         <Route exact path="/login">
           <Login

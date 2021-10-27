@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/lyricbook-fe-test/static/css/main.c172947b.chunk.css",
-    "main.js": "/lyricbook-fe-test/static/js/main.95bfba41.chunk.js",
-    "main.js.map": "/lyricbook-fe-test/static/js/main.95bfba41.chunk.js.map",
+    "main.js": "/lyricbook-fe-test/static/js/main.bba07275.chunk.js",
+    "main.js.map": "/lyricbook-fe-test/static/js/main.bba07275.chunk.js.map",
     "runtime-main.js": "/lyricbook-fe-test/static/js/runtime-main.31db26a8.js",
     "runtime-main.js.map": "/lyricbook-fe-test/static/js/runtime-main.31db26a8.js.map",
-    "static/js/2.ceeefd0d.chunk.js": "/lyricbook-fe-test/static/js/2.ceeefd0d.chunk.js",
-    "static/js/2.ceeefd0d.chunk.js.map": "/lyricbook-fe-test/static/js/2.ceeefd0d.chunk.js.map",
+    "static/js/2.89048123.chunk.js": "/lyricbook-fe-test/static/js/2.89048123.chunk.js",
+    "static/js/2.89048123.chunk.js.map": "/lyricbook-fe-test/static/js/2.89048123.chunk.js.map",
     "index.html": "/lyricbook-fe-test/index.html",
     "static/css/main.c172947b.chunk.css.map": "/lyricbook-fe-test/static/css/main.c172947b.chunk.css.map",
-    "static/js/2.ceeefd0d.chunk.js.LICENSE.txt": "/lyricbook-fe-test/static/js/2.ceeefd0d.chunk.js.LICENSE.txt"
+    "static/js/2.89048123.chunk.js.LICENSE.txt": "/lyricbook-fe-test/static/js/2.89048123.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.31db26a8.js",
-    "static/js/2.ceeefd0d.chunk.js",
+    "static/js/2.89048123.chunk.js",
     "static/css/main.c172947b.chunk.css",
-    "static/js/main.95bfba41.chunk.js"
+    "static/js/main.bba07275.chunk.js"
   ]
 }
